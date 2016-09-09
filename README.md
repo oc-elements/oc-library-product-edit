@@ -1,4 +1,4 @@
-# \<oc-product-library-edit\>
+# \<oc-library-product-edit\>
 
 Element to edit library products on the Ordercloud platform
 

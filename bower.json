@@ -1,7 +1,7 @@
 {
-  "name": "oc-product-library-edit",
+  "name": "oc-library-product-edit",
   "description": "Element to edit library products on the Ordercloud platform",
-  "main": "oc-product-library-edit.html",
+  "main": "oc-library-product-edit.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^1.4.0"
   },

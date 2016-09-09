@@ -1,0 +1,44 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<link rel="import" href="../oc-product-edit/oc-product-edit.html">
+<link rel="import" href="../oc-product-api/oc-product-api.html">
+
+<link rel="import" href="../oc-local-product-product-edit/oc-local-product-product-edit.html">
+<link rel="import" href="../oc-local-product-extras-edit/oc-local-product-extras-edit.html">
+<link rel="import" href="../oc-local-product-options-edit/oc-local-product-options-edit.html">
+<link rel="import" href="../oc-local-product-attributes-edit/oc-local-product-attributes-edit.html">
+<link rel="import" href="../oc-local-product-tags-edit/oc-local-product-tags-edit.html">
+<link rel="import" href="../oc-local-product-images-edit/oc-local-product-images-edit.html">
+
+<!--
+`oc-library-product-edit`
+Element to edit library products on the Ordercloud platform
+
+@demo demo/index.html
+-->
+
+<dom-module id="oc-library-product-edit">
+    <template>
+        <style>
+            :host {
+                display: block;
+            }
+        </style>
+        <h2>Hello [[prop1]]</h2>
+    </template>
+
+    <script>
+        Polymer({
+
+            is: 'oc-library-product-edit',
+
+            properties: {
+                prop1: {
+                    type: String,
+                    value: 'oc-product-library-edit',
+                },
+            },
+
+        });
+    </script>
+</dom-module>
